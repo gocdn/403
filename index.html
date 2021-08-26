@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <title>请收藏本页，防迷路</title>
+  <link rel="shortcut icon" type="image/x-icon" href="https://www.nonohm.com/favicon.ico" />
+  <link href="https://www.nonohm.com/fby.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/gh/gocdn/python/jquery.min.js"></script>
+ </head>
+ <body>
+  <header id="FavaBox">
+   <section class="tips">
+    <div class="box">
+     <div class="fl">
+      <img src="https://www.nonohm.com/logo.png" />
+     </div>
+     <div class="fr">
+      <p class="t1">提示：请收藏本页到浏览器</p>
+      <p class="t2">防止万一找不到网址</p>
+     </div>
+    </div>
+   </section>
+   <div class="clearfix"></div>
+   <section class="txts texun">
+    <div class="box">
+     <div class="fl">
+      <img src="https://www.nonohm.com/logo.png" />
+     </div>
+     <div class="fr">
+      <p>请点击右上角<i class="more"></i>打开</p>
+      <p id="qq">再点<i class="qq"></i>添加到QQ收藏</p>
+      <p id="wx">再点<i class="wx"></i>添加到微信收藏</p>
+     </div>
+    </div>
+    <div class="arrow"></div>
+   </section>
+   <a href="javascript:void(0);" onclick="FavaClose()" class="close">&nbsp;</a>
+  </header>
+  <div class="clearfix"></div>
+  <section class="notfoud radius">
+   <h1>最新免费韩漫网址发布</h1>
+   <div class="tisp">
+    <p>截图+收藏网址，免费看韩漫不迷路</p>
+   </div>
+   <div class="clearfix"></div>
+   <div class="ewm bt1">
+    <img src="https://www.nonohm.com/rwm.png" />
+   </div>
+   <div class="clearfix"></div>
+   <div class="tipsurl">
+    无删减资源，内容更多更完整，发布速度更快
+   </div>
+   <div class="clearfix"></div>
+   <div class="urllink">
+    <li><a class="link2" href="https://www.nonohm.com/go.html?from=fby" style="width: 100%;"><i></i>点我跳转到最新韩漫网址（zeimh.com）</a></li>
+   </div>
+   <div class="clearfix"></div>
+   <div class="downtis" id="btnCopy" data-clipboard-text="">
+    提示：收藏该网址，免费看韩漫不迷路~
+   </div>
+   <div class="clearfix"></div>
+   <footer id="btisp">
+    zeimh.com
+   </footer>
+  </section>
+  <div class="clearfix"></div>
+  <section class="qqkf"></section>
+  <div class="clearfix"></div>
+  <div style="display: none;">
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-167812269-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-167812269-1');
+</script>
+  </div>
+  <script type="text/javascript">$(function(){var ua=navigator.userAgent.toLowerCase();if(ua.indexOf(' qq')>-1&&ua.indexOf('mqqbrowser')<0){$('.tips,#wx').hide();$('.texun,#qq').show();return}else if(ua.match(/MicroMessenger/i)=='micromessenger'){$('.tips,#qq').hide();$('.texun,#wx').show();return}else{$('.btisp,.tips').show();$('.texun').hide()};if(/(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent)){$('#btisp').html("请在<b></b>打开，点击 <i></i>，再点<em></em>“添加到主屏幕”");$('.qqpc').hide();$('.qqmob').show()}else if(/(Android)/i.test(navigator.userAgent)){$('#btisp').html("<a href=\"\">收藏本页面，网址永不丢失</a>");$('.qqpc').hide();$('.qqmob').show()}else{$('#btisp').html("请按CTRL+D添加收藏");$('.qqmob').hide();$('.qqpc').show()}});function cookiesave(c,d,b,a,e){c&&(e||(e="/"),b=new Date,b.setTime((new Date).getTime()+25920E5),b="; expires="+b.toGMTString(),a&&(a="domain="+a+";"),document.cookie=c+"="+d+b+"; "+a+"path="+e)}function cookieget(c){c+="=";for(var d=document.cookie.split(";"),b=0;b<d.length;b++){for(var a=d[b];" "==a.charAt(0);)a=a.substring(1,a.length);if(0==a.indexOf(c))return a.substring(c.length,a.length)}return""}function FavaClose(){$("#FavaBox").hide();cookiesave("FavaClose","FavaClose","","")}function clickclose(){"FavaClose"==cookieget("FavaClose")?$("#FavaBox").hide():$("#FavaBox").show()}window.onload=clickclose;</script>
+ </body>
+</html>
